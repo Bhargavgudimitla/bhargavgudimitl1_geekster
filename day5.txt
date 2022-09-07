@@ -1,0 +1,87 @@
+//q1
+
+
+  public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int x=s.nextInt();
+        int y=s.nextInt();
+        int z=s.nextInt();
+        if(x%3==0)
+        {
+            if(y>=200)
+            {
+                z=z+10;
+                System.out.println(z+10);
+            }
+            else if(y>=100&&y<200)
+            {
+                z=z+5;
+                    System.out.println(z+10);
+            }
+            else if(y>=50&&y<100)
+            {
+                z=z+4;
+                System.out.println(z+10);
+            }
+             else
+             {
+                 System.out.println(z+11);
+             }
+        }   
+         else{
+         if(y>=200)
+         {
+             z=z+3;
+         System.out.println(z+10);   
+         }
+        else if(y>=100&&y<200)
+        {
+            z=z+2;
+            System.out.println(z+10);
+        }
+        else
+        {
+            z=z+1;
+            System.out.println(z+10);
+        }
+            
+    }
+
+        }   
+}
+
+
+//q2
+
+
+  public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+   Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        if(a>1000){
+        if(a%2==0)
+        {
+            System.out.println("Even and above 1000");
+        }
+            else
+            {
+                System.out.println("Odd and above 1000");
+            }
+        }
+     else
+     {
+      if(a%2==0)         
+     {
+         System.out.println("Even");
+     }
+         else
+         {
+             System.out.println("Odd");
+         }
+    }
+    }
+}
